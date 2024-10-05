@@ -1,8 +1,11 @@
 {
-	"name": "esbuild-plugin-babel",
+	"name": "esbuild-plugin-babel-libreverse",
 	"version": "0.2.3",
 	"description": "Babel plugin for esbuild.",
-	"repository": "nativew/esbuild-plugin-babel",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nativew/esbuild-plugin-babel.git"
+	},
 	"author": "Antoine Boulanger (https://github.com/antoineboulanger)",
 	"license": "ISC",
 	"exports": "./src/index.js",
